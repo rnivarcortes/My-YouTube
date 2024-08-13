@@ -1,0 +1,50 @@
+google fonts has alot of fonts you can use
+
+'object-fit' is an image property that tells the image to cover an area that's specified
+
+'object-fit: contain' makes the image shrink until it's contained in the specified area, whether or not it fills it
+
+'object-position' is an image property that tells what part of the image to show in the area specified
+
+'<input>' allows you to make various interactive elements
+
+    type="text" search box
+    type="checkbox" check box
+
+there are 3 types of elements
+  block = takes up the entire line
+  inline = appear within a line of text
+  inline-block = only takes up as much space as needed
+
+can change the type of the element by using the property 'display: '
+
+block elements = take up the entire line in their container (for example, a '<div>' is a container)
+
+nested layouts techniques = being able to find the different layouts use to design different websites
+  vertical layouts (block)
+  horizontal layout (inline-block)
+
+CSS Grid
+  Grid = sturcture with x rows and y columns
+  Flex = the difference is the size of the column follows individual elements
+
+justify-content: how elements are positioned horizontally
+
+align-items: how items align vertically
+
+Positions:
+  fixed = floats above the page; placed in the browser window
+  absolute = placed on the page
+  top/bottom = how far the element is away from the top/bottom of the page
+  left/right = how far the element is away from the left/right of the page
+  if either of these are done simultaneously, it will stretch so both properties are true
+
+z-index: what plane of the z-axis an element appears on
+
+position: static = always appear behind other elemets (z-index: -1)
+
+<header> 
+<nav>
+<main>
+<section>
+= both work similar to <div> but have a special meaning for screen readers, search engines, and anything that helps read the webpage
